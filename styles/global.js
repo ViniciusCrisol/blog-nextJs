@@ -11,6 +11,7 @@ export default createGlobalStyle`
 *:focus{
   outline: 0;
 }
+
 html, body , #root{
   min-height: 100%;
   width: 100%;
@@ -36,6 +37,7 @@ a{
 --background: #fff;
 --text: #171717;
 --main: #09BF97;
+--main-opacity: #09BF9799;
 --dark: #1B1B1B;
 --white: #fff;
 --opacity-gray: #eee6;

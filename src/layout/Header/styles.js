@@ -29,13 +29,12 @@ export const Container = styled.header`
       font-weight: 600;
       letter-spacing: 1px;
 
-      border-bottom: 2px solid transparent;
+      border-bottom: 2px solid var(--opacity-gray);
       padding-bottom: 5px;
 
-      transition: 300ms ease;
+      transition: border-color 300ms;
 
       &:hover {
-        color: var(--opacity-gray);
         border-color: var(--main);
       }
     }

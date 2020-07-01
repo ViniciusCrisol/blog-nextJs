@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import Layout from '../src/layout';
 import Spotlight from '../src/components/Spotlight';
 

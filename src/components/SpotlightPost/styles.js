@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  max-width: 315px;
+  max-width: 335px;
   max-height: 255px;
 
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   padding: 18px;
   margin: 6px;
 
@@ -38,5 +38,12 @@ export const Container = styled.div`
     svg {
       margin-right: 6px;
     }
+  }
+
+  transition: 200ms;
+
+  :hover {
+    box-shadow: 0px 0px 5px var(--main-opacity);
+    transform: scale(1.02);
   }
 `;
