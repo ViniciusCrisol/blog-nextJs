@@ -1,4 +1,4 @@
-import { FiBookmark } from 'react-icons/fi';
+import { MdBookmarkBorder } from 'react-icons/md';
 import Link from 'next/link';
 
 import { Container } from './styles';
@@ -16,7 +16,7 @@ function SpotlightPost() {
           painful.
         </p>
         <footer>
-          <FiBookmark size={18} />
+          <MdBookmarkBorder size={18} />
           <span>CSS, HTML</span>
         </footer>
       </Container>

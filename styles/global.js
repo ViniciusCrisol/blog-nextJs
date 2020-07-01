@@ -41,7 +41,7 @@ a{
 --main-opacity: #269E7499;
 --dark: #1B1B1B;
 --white: #fff;
---opacity-gray: #eee6;
+--light-gray: #eee;
 --gray: #888;
 }
 `;
