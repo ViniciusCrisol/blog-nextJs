@@ -5,7 +5,7 @@ import { Container } from './styles';
 
 function SpotlightPost() {
   return (
-    <Link href='/post'>
+    <Link href='/post/[post]' as='/post/post1'>
       <Container>
         <span>19 mai, 2020</span>
         <h1>quis nostrud exercitation ullamco</h1>

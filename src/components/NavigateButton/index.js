@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 function NavigateButton() {
   return (
-    <Link href=''>
+    <Link href='/posts'>
       <Container>Check all posts!</Container>
     </Link>
   );
