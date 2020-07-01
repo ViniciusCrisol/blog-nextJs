@@ -3,7 +3,7 @@ import { MdBookmarkBorder } from 'react-icons/md';
 
 import { Container } from './styles';
 
-function Post() {
+function PostContainer() {
   return (
     <Link href='/post/[post]' as='/post/post1'>
       <Container>
@@ -23,4 +23,4 @@ function Post() {
   );
 }
 
-export default Post;
+export default PostContainer;
