@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: 42px;
+  min-width: 90px;
   width: min-content;
 
   padding: 6px 12px 6px 6px;
@@ -12,6 +13,8 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
+
+  cursor: pointer;
 
   div {
     width: 30px;

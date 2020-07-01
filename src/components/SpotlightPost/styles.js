@@ -25,8 +25,7 @@ export const Container = styled.div`
 
   p {
     height: 95px;
-    text-overflow: none;
-    overflow: hidden;
+    font-size: 16px;
   }
 
   footer {

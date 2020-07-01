@@ -31,19 +31,8 @@ export const Container = styled.header`
       align-items: center;
 
       a {
-        font-size: 17px;
+        font-size: 20px;
         color: var(--white);
-        font-weight: 600;
-        letter-spacing: 0.5px;
-
-        border-bottom: 2px solid var(--opacity-gray);
-        padding-bottom: 5px;
-
-        transition: border-color 300ms;
-
-        &:hover {
-          border-color: var(--main);
-        }
       }
     }
   }

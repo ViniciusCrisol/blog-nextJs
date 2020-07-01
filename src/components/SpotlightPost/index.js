@@ -12,8 +12,7 @@ function SpotlightPost() {
         <p>
           odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
           voluptatem it is pleasure, but because those who do not know how to
-          pursue pleasure rationally encounter consequences that are extremely
-          painful.
+          pursue pleasure.
         </p>
         <footer>
           <MdBookmarkBorder size={18} />
