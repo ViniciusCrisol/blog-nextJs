@@ -5,7 +5,6 @@ export const Container = styled.header`
   height: 64px;
 
   background-color: var(--dark);
-  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.4);
 
   main {
     max-width: 980px;

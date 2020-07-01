@@ -33,11 +33,12 @@ a{
 }
 
 :root{
---background: #f2f2f2;
+--background: #fff;
 --text: #171717;
 --main: #09BF97;
 --dark: #1B1B1B;
 --white: #fff;
 --opacity-gray: #eee6;
+--gray: #888;
 }
 `;

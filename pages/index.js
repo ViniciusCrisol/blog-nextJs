@@ -1,9 +1,12 @@
+import Link from 'next/link';
+
 import Layout from '../src/layout';
+import Spotlight from '../src/components/Spotlight';
 
 function Home() {
   return (
     <Layout>
-      <h1>Blog Content</h1>
+      <Spotlight />
     </Layout>
   );
 }
