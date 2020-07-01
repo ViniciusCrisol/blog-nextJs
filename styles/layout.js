@@ -20,5 +20,5 @@ export const Content = styled.div`
   margin: 0 auto;
   padding: 30px 20px;
 
-  animation: 400ms ${fadeIn};
+  animation: 1s ${fadeIn};
 `;
