@@ -1,7 +1,11 @@
-// import { Container } from './styles';
+import Layout from '../src/layout';
 
 function Home() {
-  return <h1>Blog</h1>;
+  return (
+    <Layout>
+      <h1>Blog Content</h1>
+    </Layout>
+  );
 }
 
 export default Home;

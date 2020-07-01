@@ -1,6 +1,8 @@
 import Document, { Head, Main, Html, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 
+import Global from '../styles/global';
+
 class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
     const sheet = new ServerStyleSheet();
