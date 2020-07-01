@@ -1,15 +1,16 @@
+import Link from 'next/link';
 import { Container } from './styles';
 
 function layout() {
   return (
     <Container>
       <main>
-        <h1>Vinícius Crisol</h1>
-        <ul>
-          <li>
-            <a href=''>contact</a>
-          </li>
-        </ul>
+        <Link href='/'>
+          <h1>Crisol</h1>
+        </Link>
+        <section>
+          <a href=''>contact</a>
+        </section>
       </main>
     </Container>
   );

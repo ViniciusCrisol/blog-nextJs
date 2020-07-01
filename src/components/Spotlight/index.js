@@ -4,10 +4,13 @@ import Post from '../SpotlightPost';
 function Spotlight() {
   return (
     <Container>
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <h1>Trending Posts</h1>
+      <main>
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+      </main>
     </Container>
   );
 }

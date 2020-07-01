@@ -18,24 +18,32 @@ export const Container = styled.header`
     justify-content: space-between;
 
     h1 {
-      font-size: 21px;
+      font-size: 28px;
       font-weight: normal;
       color: var(--white);
+      letter-spacing: 2px;
+
+      cursor: pointer;
     }
 
-    a {
-      font-size: 17px;
-      color: var(--white);
-      font-weight: 600;
-      letter-spacing: 1px;
+    section {
+      display: flex;
+      align-items: center;
 
-      border-bottom: 2px solid var(--opacity-gray);
-      padding-bottom: 5px;
+      a {
+        font-size: 17px;
+        color: var(--white);
+        font-weight: 600;
+        letter-spacing: 0.5px;
 
-      transition: border-color 300ms;
+        border-bottom: 2px solid var(--opacity-gray);
+        padding-bottom: 5px;
 
-      &:hover {
-        border-color: var(--main);
+        transition: border-color 300ms;
+
+        &:hover {
+          border-color: var(--main);
+        }
       }
     }
   }

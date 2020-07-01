@@ -6,6 +6,7 @@ export default createGlobalStyle`
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  transition: ease;
 }
 
 *:focus{
@@ -36,8 +37,8 @@ a{
 :root{
 --background: #fff;
 --text: #171717;
---main: #09BF97;
---main-opacity: #09BF9799;
+--main: #269E74;
+--main-opacity: #269E7499;
 --dark: #1B1B1B;
 --white: #fff;
 --opacity-gray: #eee6;
