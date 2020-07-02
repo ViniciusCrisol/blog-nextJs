@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Router from 'next/router';
 import axios from 'axios';
 import { IoMdArrowBack } from 'react-icons/io';
 
@@ -34,20 +34,17 @@ export async function getStaticPaths() {
 }
 
 function Post({ post }) {
-  console.log(post);
-
   return (
     <Layout>
       <Container>
-        <Link href='/posts'>
-          <a>
-            <IoMdArrowBack />
-            Posts
-          </a>
-        </Link>
+        <a onClick={() => Router.back()}>
+          <IoMdArrowBack />
+          Go Back
+        </a>
+
         <span>{post.date}</span>
         <h1>{post.title}</h1>
-        <p>{post.text}</p>
+        <article dangerouslySetInnerHTML={{ __html: post.text }} />
       </Container>
     </Layout>
   );

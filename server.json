@@ -4,7 +4,7 @@
       "id": "1",
       "date": "01/07/2020",
       "title": "Let's talk about React Hooks?",
-      "text": "Well, React Hooks is a recently featured of ReactJs. Many people don't know how to use them, and usually make 'silly' errors that can cause a lot of problems in your code. The hook useCallback generally is overlooked by developers, but many times but it can save your project."
+      "text": "<p>Well, React Hooks is a recently featured of ReactJs. Many people don't know how to use them, and usually make 'silly' errors that can cause a lot of problems in your code. The hook useCallback generally is overlooked by <strong>developers</strong>, but many times but it can save your project.</p><h2>Amor</h2><p>Muito amor mesmo</p>"
     },
     {
       "id": "2",

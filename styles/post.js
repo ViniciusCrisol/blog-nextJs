@@ -8,6 +8,8 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
 
+    cursor: pointer;
+
     svg {
       margin-right: 4px;
     }
@@ -28,5 +30,9 @@ export const Container = styled.div`
 
   p {
     font-size: 20px;
+  }
+
+  h2 {
+    margin: 16px 0;
   }
 `;
