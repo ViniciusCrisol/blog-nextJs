@@ -30,7 +30,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <style>{this.props.styleTags}</style>
           <meta charSet='utf-8' />
           <meta
             name='viewport'
