@@ -5,7 +5,7 @@ import { Container } from './styles';
 
 function PostContainer() {
   return (
-    <Link href='/post/[post]' as='/post/post1'>
+    <Link href='/post/[id]' as='/post/1'>
       <Container>
         <span>19 mai, 2020</span>
         <h1>quis nostrud exercitation ullamco</h1>

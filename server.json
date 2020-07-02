@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "date": "01/07/2020",
+      "title": "Let's talk about React Hooks?",
+      "text": "Well, React Hooks is a recently featured of ReactJs. Many people don't know how to use them, and usually make 'silly' errors that can cause a lot of problems in your code. The hook useCallback generally is overlooked by developers, but many times but it can save your project."
+    },
+    {
+      "id": "2",
+      "date": "01/07/2020",
+      "title": "Amor",
+      "text": "texto do amor"
+    }
+  ]
+}
