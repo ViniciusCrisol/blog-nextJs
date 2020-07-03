@@ -1,6 +1,4 @@
-# Facebook Clone
-
-> A facebook clone made with React & NodeJs.
+# Blog
 
 [![Author](https://img.shields.io/badge/author-ViniciusCrisol-blue?style=flat-square)](https://github.com/ViniciusCrisol)
 [![Languages](https://img.shields.io/github/languages/count/ViniciusCrisol/blog-nextJs?color=blue&style=flat-square)](#)
@@ -26,7 +24,7 @@
 # :closed_book: License
 
 Released in 2020.
-This project is under the MIT license
+This project is under the [MIT license](https://github.com/ViniciusCrisol/blog-nextJs/blob/master/LICENSE).
 
 ---
 
