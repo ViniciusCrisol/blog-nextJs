@@ -1,15 +1,15 @@
 import { Container } from './styles';
+
 import Post from '../SpotlightPost';
 
-function Spotlight() {
+function Spotlight({ posts }) {
   return (
     <Container>
-      <h1>Trending Posts</h1>
+      <h1>Fixed Posts</h1>
       <main>
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        {posts.map((post) => (
+          <Post key={post.id} data={post} />
+        ))}
       </main>
     </Container>
   );

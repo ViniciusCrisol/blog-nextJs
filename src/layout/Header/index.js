@@ -9,7 +9,9 @@ function layout() {
           <h1>Crisol</h1>
         </Link>
         <section>
-          <a href=''>contact</a>
+          <Link href='/contact'>
+            <a>contact</a>
+          </Link>
         </section>
       </main>
     </Container>

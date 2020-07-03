@@ -1,13 +1,14 @@
 import Router from 'next/router';
-import axios from 'axios';
 import { IoMdArrowBack } from 'react-icons/io';
 
+import api from '../../src/services/api';
 import Layout from '../../src/layout';
 
 import { Container } from '../../styles/post';
 
 export async function getStaticProps({ params }) {
-  const response = await axios.get(`http://localhost:3333/posts/${params.id}`);
+  const response = await api.get(`posts/${params.id}`);
+
   return {
     props: {
       post: response.data,
@@ -16,19 +17,16 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
+  const pageNumber = [];
+
+  for (let i = 1; i <= 1; i++) pageNumber.push(`${i}`);
+
   return {
-    paths: [
-      {
-        params: {
-          id: '1',
-        },
+    paths: pageNumber.map((number) => ({
+      params: {
+        id: number,
       },
-      {
-        params: {
-          id: '2',
-        },
-      },
-    ],
+    })),
     fallback: false,
   };
 }
@@ -45,6 +43,21 @@ function Post({ post }) {
         <span>{post.date}</span>
         <h1>{post.title}</h1>
         <article dangerouslySetInnerHTML={{ __html: post.text }} />
+
+        <footer>
+          <p>
+            Vinícius Crisol
+            <a
+              target='_blank'
+              href='https://www.linkedin.com/in/vin%C3%ADciuscrisol/'
+            >
+              Linkedin
+            </a>
+            <a target='_blank' href='https://github.com/ViniciusCrisol'>
+              Github
+            </a>
+          </p>
+        </footer>
       </Container>
     </Layout>
   );

@@ -33,6 +33,33 @@ export const Container = styled.div`
   }
 
   h2 {
-    margin: 16px 0;
+    margin: 30px 0 10px 0;
+  }
+
+  pre {
+    width: 100%;
+
+    background-color: #282a36;
+    border-radius: 10px;
+
+    padding: 10px;
+    margin: 30px auto;
+
+    font-size: 10px;
+    font-family: 'Fira Code';
+    color: white;
+  }
+
+  footer {
+    margin-top: 90px;
+
+    > p {
+      color: var(--gray);
+      font-size: 16px;
+
+      a + a {
+        margin-top: 2px;
+      }
+    }
   }
 `;

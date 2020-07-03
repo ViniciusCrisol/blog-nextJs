@@ -30,6 +30,14 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
 
+    span {
+      text-transform: uppercase;
+
+      & + span {
+        margin-left: 6px;
+      }
+    }
+
     svg {
       margin-right: 6px;
     }

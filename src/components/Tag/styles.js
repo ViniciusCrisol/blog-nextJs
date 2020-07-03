@@ -14,8 +14,6 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
-  cursor: pointer;
-
   div {
     width: 30px;
     height: 30px;

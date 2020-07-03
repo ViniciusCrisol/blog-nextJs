@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   max-width: 343px;
+  width: 100%;
+
   max-height: 255px;
 
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
