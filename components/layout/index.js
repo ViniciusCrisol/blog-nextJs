@@ -1,5 +1,5 @@
 import React from 'react';
-import { initGA, logPageView } from '../utils/analytics';
+import { initGA, logPageView } from '../../utils/analytics';
 
 import { Container, Content } from '../../styles/layout';
 

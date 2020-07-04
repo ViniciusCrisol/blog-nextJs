@@ -1,8 +1,9 @@
 import Head from 'next/head';
 
-import Layout from '../src/layout';
-import api from '../src/services/api';
-import PostContainer from '../src/components/Post';
+import api from '../services/api';
+
+import Post from '../components/Post';
+import Layout from '../components/layout';
 
 export async function getStaticProps() {
   const response = await api.get('');
@@ -14,7 +15,7 @@ export async function getStaticProps() {
   };
 }
 
-function Post({ posts }) {
+function Posts({ posts }) {
   return (
     <Layout>
       <Head>
@@ -30,10 +31,10 @@ function Post({ posts }) {
         />
       </Head>
       {posts.map((post) => (
-        <PostContainer key={post.id} data={post} />
+        <Post key={post.id} data={post} />
       ))}
     </Layout>
   );
 }
 
-export default Post;
+export default Posts;

@@ -1,9 +1,10 @@
 import Head from 'next/head';
 
-import Layout from '../src/layout';
-import api from '../src/services/api';
-import Spotlight from '../src/components/Spotlight';
-import NavigateButton from '../src/components/NavigateButton';
+import api from '../services/api';
+
+import Layout from '../components/layout';
+import Spotlight from '../components/Spotlight';
+import NavigateButton from '../components/NavigateButton';
 
 // import Tags from '../src/components/Tags';
 

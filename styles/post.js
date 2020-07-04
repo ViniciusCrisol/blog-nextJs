@@ -39,15 +39,14 @@ export const Container = styled.div`
   pre {
     width: 100%;
 
-    background-color: #282a36;
-    border-radius: 10px;
+    background-color: #eee;
 
     padding: 10px;
     margin: 30px auto;
+    border-left: 3px solid var(--main);
 
     font-size: 10px;
     font-family: 'Fira Code';
-    color: white;
   }
 
   footer {

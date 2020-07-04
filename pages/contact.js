@@ -1,7 +1,7 @@
-import Layout from '../src/layout';
 import Head from 'next/head';
 
-import ContactContainer from '../src/components/Contact';
+import Layout from '../components/layout';
+import ContactContainer from '../components/Contact';
 
 function Contact() {
   return (

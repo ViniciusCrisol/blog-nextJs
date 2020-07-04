@@ -52,7 +52,10 @@ function Contact() {
       <br />
       <ul>
         <li>
-          <a href='https://github.com/ViniciusCrisol/blog-nextJs'>
+          <a
+            target='_blank'
+            href='https://github.com/ViniciusCrisol/blog-nextJs'
+          >
             Blog repository
           </a>
         </li>

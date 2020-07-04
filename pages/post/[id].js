@@ -2,8 +2,8 @@ import Router from 'next/router';
 import Head from 'next/head';
 import { IoMdArrowBack } from 'react-icons/io';
 
-import api from '../../src/services/api';
-import Layout from '../../src/layout';
+import api from '../../services/api';
+import Layout from '../../components/layout';
 
 import { Container } from '../../styles/post';
 
