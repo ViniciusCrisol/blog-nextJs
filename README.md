@@ -1,8 +1,8 @@
 # Blog
 
-[![Author](https://img.shields.io/badge/author-ViniciusCrisol-blue?style=flat-square)](https://github.com/ViniciusCrisol)
-[![Languages](https://img.shields.io/github/languages/count/ViniciusCrisol/blog-nextJs?color=blue&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/ViniciusCrisol/blog-nextJs?color=blue&style=flat-square)](https://github.com/ViniciusCrisol/clone-facebook/stargazers)
+[![Author](https://img.shields.io/badge/author-ViniciusCrisol-269E74?style=flat-square)](https://github.com/ViniciusCrisol)
+[![Languages](https://img.shields.io/github/languages/count/ViniciusCrisol/blog-nextJs?color=269E74&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/ViniciusCrisol/blog-nextJs?color=269E74&style=flat-square)](https://github.com/ViniciusCrisol/clone-facebook/stargazers)
 
 <br />
 
