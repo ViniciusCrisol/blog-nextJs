@@ -10,7 +10,7 @@ function Contact() {
         <title>Contact</title>
         <meta
           name='description'
-          Contact='page, blog history and a little bit about Vinícius Crisol(the blog creator)'
+          content='page, blog history and a little bit about Vinícius Crisol(the blog creator)'
           data-react-helmet='true'
         />
       </Head>

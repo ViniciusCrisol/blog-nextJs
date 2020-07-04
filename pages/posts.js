@@ -22,7 +22,7 @@ function Posts({ posts }) {
         <title>Posts</title>
         <meta
           name='description'
-          Contact="Hi, my name is Vinícius Crisol, I am a Brazilian programming student. I
+          content="Hi, my name is Vinícius Crisol, I am a Brazilian programming student. I
           created this blog with a goal: Help people to solve their problems more
           easily. When I was starting, I didn't have easy access to specific
           information about technologies. With that in mind, I decided to create
