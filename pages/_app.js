@@ -10,7 +10,7 @@ class MyApp extends App {
     return (
       <>
         <Head>
-          <title> Blog </title>
+          <title> Crisol </title>
         </Head>
         <Global />
         <Component {...pageProps} />

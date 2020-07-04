@@ -1,4 +1,5 @@
 import Router from 'next/router';
+import Head from 'next/head';
 import { IoMdArrowBack } from 'react-icons/io';
 
 import api from '../../src/services/api';
@@ -34,6 +35,14 @@ export async function getStaticPaths() {
 function Post({ post }) {
   return (
     <Layout>
+      <Head>
+        <title>{post.title}</title>
+        <meta
+          name='description'
+          content={post.description}
+          data-react-helmet='true'
+        />
+      </Head>
       <Container>
         <a onClick={() => Router.back()}>
           <IoMdArrowBack />
