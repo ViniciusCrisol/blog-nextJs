@@ -20,7 +20,7 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   const pageNumber = [];
 
-  for (let i = 1; i <= 1; i++) pageNumber.push(`${i}`);
+  for (let i = 1; i <= 2; i++) pageNumber.push(`${i}`);
 
   return {
     paths: pageNumber.map((number) => ({
