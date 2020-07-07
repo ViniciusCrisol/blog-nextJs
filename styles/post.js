@@ -36,6 +36,15 @@ export const Container = styled.div`
     margin: 30px 0 10px 0;
   }
 
+  strong {
+    background-color: #eee;
+    padding: 2px;
+
+    font-weight: normal;
+    font-size: 10px;
+    font-family: 'Fira Code';
+  }
+
   pre {
     width: 100%;
 
